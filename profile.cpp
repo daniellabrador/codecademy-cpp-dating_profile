@@ -20,7 +20,7 @@ string Profile::view_profile(){
     for (int i=0; i<hobbies.size()-1; i++){
         profile += hobbies[i] + ", ";
     }
-    profile += hobbies[hobbies.size()-1];
+    profile += hobbies[hobbies.size()-1] + "\n";
 
     return profile;
 }
